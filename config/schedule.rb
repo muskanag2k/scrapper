@@ -20,9 +20,10 @@
 # Learn more: http://github.com/javan/whenever
 
 # env :PATH, ENV['PATH']
-set :output, "/Users/muskanagarwal/Downloads/scrapper/log/cron.log"
+
+set :output, "log/cron.log"
 
 # Schedule keep_check method
-every 20.minutes do
-  runner "MoviesController.new.keep_check"
+every 2.minutes do
+  runner "ScrappingJob.perform_now"
 end

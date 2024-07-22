@@ -22,3 +22,11 @@ RSpec.describe MoviesController, type: :controller do
     end
   end
 end
+
+
+
+#specs
+#validation, unique
+#model, controller
+#service
+#coverage report simplecov
