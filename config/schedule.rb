@@ -23,7 +23,6 @@
 
 set :output, "log/cron.log"
 
-# Schedule keep_check method
 every 2.minutes do
-  runner "ScrappingJob.perform_now"
+  runner "ScrappingJob.perform_now", :environment => "development"
 end
