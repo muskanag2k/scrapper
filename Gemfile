@@ -63,6 +63,6 @@ gem 'redis'
 group :development, :test do
   gem 'rspec-rails', '~> 5.0'
 end
-
+gem 'guard-rspec'
 
 gem 'whenever', require: false
