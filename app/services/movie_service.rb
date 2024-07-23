@@ -28,9 +28,11 @@ class MovieService
             else
               puts "Error fetching cast page for #{movie_name}: #{cast_response.status}"
             end
-          rescue StandardError => e
-            puts "Error fetching or parsing data for #{movie_name}: #{e.message}"
+          # rescue StandardError => e
+          #   puts "Error fetching or parsing data for #{movie_name}: #{e.message}"
           end
+        rescue StandardError => e
+          puts "Exception occurred in thread: #{e.message}"
         end
       end
       puts "Fetch completed.."
