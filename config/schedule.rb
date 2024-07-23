@@ -23,6 +23,6 @@
 
 set :output, "log/cron.log"
 
-every 2.minutes do
+every 20.minutes do
   runner "ScrappingJob.perform_now", :environment => "development"
 end

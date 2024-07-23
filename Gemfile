@@ -56,7 +56,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'nokogiri'
-gem 'open-uri'
+# gem 'open-uri'
 gem 'http'
 gem 'redis'
 
@@ -66,3 +66,4 @@ end
 gem 'guard-rspec'
 
 gem 'whenever', require: false
+gem "simplecov", require: false, group: :test
