@@ -33,6 +33,26 @@
           null
         ]
       },
+      "/Users/muskanagarwal/Downloads/scrapper/spec/controllers/movies_controller_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/muskanagarwal/Downloads/scrapper/app/controllers/movies_controller.rb": {
         "lines": [
           1,
@@ -45,7 +65,7 @@
           1,
           null,
           null,
-          1,
+          5,
           1,
           null,
           0,
@@ -85,8 +105,19 @@
           1,
           1,
           1,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          250,
+          250,
+          250,
+          null,
+          250,
+          250,
+          null,
           0,
           0,
           0,
@@ -95,17 +126,6 @@
           0,
           0,
           null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
           null,
           0,
           null,
@@ -113,13 +133,13 @@
           null,
           null,
           null,
-          0,
+          8,
           null,
-          null,
-          0,
-          0,
           null,
           1,
+          1,
+          null,
+          0,
           null,
           null,
           null,
@@ -135,96 +155,8 @@
           1,
           null
         ]
-      },
-      "/Users/muskanagarwal/Downloads/scrapper/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/muskanagarwal/Downloads/scrapper/app/models/actor_movie.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/muskanagarwal/Downloads/scrapper/app/jobs/scrapping_job.rb": {
-        "lines": [
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/muskanagarwal/Downloads/scrapper/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/muskanagarwal/Downloads/scrapper/app/helpers/application_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/muskanagarwal/Downloads/scrapper/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/muskanagarwal/Downloads/scrapper/app/channels/application_cable/channel.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1721720119
+    "timestamp": 1721721075
   }
 }

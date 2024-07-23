@@ -66,4 +66,4 @@ end
 gem 'guard-rspec'
 
 gem 'whenever', require: false
-gem "simplecov", require: false, group: :test
+gem "simplecov", require: false

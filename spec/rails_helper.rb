@@ -10,7 +10,13 @@ require 'rspec/rails'
 
 require 'simplecov'
 
-SimpleCov.start "rails"
+SimpleCov.start do
+  add_group "Models", "app/models"
+  add_group "Controllers", "app/controllers"
+  add_group "Lib", "lib/"
+  add_group "Helpers", "app/helpers"
+  add_group "Jobs", "app/jobs"
+end
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
