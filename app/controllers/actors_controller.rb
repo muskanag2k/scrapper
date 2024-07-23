@@ -16,11 +16,19 @@ class ActorsController < ApplicationController
         top_movies: movie_list
       }
     else
-      json_response = @movie_service.fetch_movies
-      if json_response
-        show
-      else
-        render json: { error: "Actor not found or Wrong input!" }, status: :not_found
+      retry_limit = 3
+      retries = 0
+      begin
+        json_response = @movie_service.fetch_movies
+        if json_response
+          retries += 1
+        else
+          render json: { error: "Actor not found or Wrong input!" }, status: :not_found
+        end
+      end while json_response && retries < retry_limit
+
+      if retries >= retry_limit
+        render json: { error: "Movie service retry limit exceeded" }, status: :internal_server_error
       end
     end
   end
