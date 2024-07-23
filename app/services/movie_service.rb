@@ -16,8 +16,7 @@ class MovieService
           begin
             cast_url = item['item']['url']
             cast_response = HTTP.headers('User-Agent' => 'Mozilla/5.0').get(cast_url)
-
-            if cast_response.status.success?
+            if cast_response
               cast_body = cast_response.body.to_s
               cast_html = Nokogiri::HTML(cast_body)
               actors = cast_html.css('a[href^="/name/"]').map { |actor| actor.text.strip }.uniq.reject(&:empty?)
