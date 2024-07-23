@@ -16,7 +16,8 @@ SimpleCov.start do
   add_group "Lib", "lib/"
   add_group "Helpers", "app/helpers"
   add_group "Jobs", "app/jobs"
-  
+
+  add_filter "spec/"
 end
 # Add additional requires below this line. Rails is not loaded until this point!
 
